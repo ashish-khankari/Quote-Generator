@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    position: fixed;
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm347-baifernn-07_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d8bdcd3bb3bb2e84afccfa91ec4f3e5b');
+}
+
+header{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    margin-bottom: 305px;
+}
+
+.quote-area{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    width: 500px;
+
+}
+
+button{
+    height: 40px;
+    width: 200px;
+    margin-top: 50px;
+    background-color: chocolate;
+    font-size: 20px;
+    border-radius: 25px;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    position: fixed;
+}
+
+.name{
+    font-size: 22px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
